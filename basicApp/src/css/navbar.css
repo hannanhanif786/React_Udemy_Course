@@ -1,0 +1,21 @@
+#navbar_container {
+  display: flex;
+  background-color: black;
+  color: #fff;
+  justify-content: space-around;
+  height: 50px;
+}
+.logo {
+  margin: auto 0px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  width: 40%;
+  margin: auto 0px;
+}
+li {
+  list-style: none;
+}
