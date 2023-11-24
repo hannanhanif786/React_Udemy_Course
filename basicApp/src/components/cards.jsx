@@ -1,8 +1,6 @@
-import '../css/cards.css'
 
 // Using props for setting dynamic data in this component
-function Cards(props){
-    console.log(props)
+function Card(props){
     return(
         <div className="cards_container">
             <div className="card_item">
@@ -14,4 +12,4 @@ function Cards(props){
     )
 }
 
-export default Cards
+export default Card

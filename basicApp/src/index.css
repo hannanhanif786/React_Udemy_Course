@@ -6,3 +6,82 @@
 body {
   background-color: cadetblue;
 }
+.cards_section {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 20px;
+}
+
+#navbar_container {
+  display: flex;
+  background-color: black;
+  color: #fff;
+  justify-content: space-around;
+  height: 50px;
+}
+.logo {
+  margin: auto 0px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  width: 40%;
+  margin: auto 0px;
+}
+li {
+  list-style: none;
+}
+
+.button_section {
+  display: flex;
+  position: relative;
+  top: 40px;
+  justify-content: space-around;
+}
+
+.info_contianer {
+  display: flex;
+  position: relative;
+  /* top: 40px; */
+  justify-content: space-evenly;
+}
+.btn {
+  font-size: 1.9rem;
+  padding: 5px;
+  cursor: pointer;
+  width: 10%;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.detailed_card {
+  /* width: 19%;  */
+  height: 300px;
+  background-color: rgb(21, 37, 37);
+  color: white;
+  border-radius: 10px;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card_item {
+  /* width: 20%; */
+  height: 300px;
+  background-color: rgb(21, 37, 37);
+  color: white;
+  border: 2px solid black;
+}
+
+/* p {
+  width: 50%;
+} */

@@ -1,10 +1,7 @@
-import '../css/button.css'
 
 
-export default function Button(props){
-
-
+export default function Button({children, ...pr}){
     return(
-        <button className="btn" onClick={props.onSelect}>{props.label}</button>
+        <button {...pr}>{children}</button>
     )
 }

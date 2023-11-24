@@ -1,4 +1,3 @@
-import '../css/info.css'
 
 export default function Info(props){
     return(
