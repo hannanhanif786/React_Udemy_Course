@@ -14,8 +14,8 @@ export default function Buttons(){
         <>
         <section className="button_section">
       <Button className="btn" onClick = {() => displayMessage("java")}>Java</Button>,
-      <Button className="btn"  onClick = {() => displayMessage("JS")}>Python</Button>
-      <Button className="btn" onClick = {() => displayMessage("Python")}>JS</Button>
+      <Button className="btn"  onClick = {() => displayMessage("JS")}>JS</Button>
+      <Button className="btn" onClick = {() => displayMessage("Python")}>Python</Button>
         </section>
       <br />
       <br />
